@@ -1,0 +1,111 @@
+#main {
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #f0f0f0;
+    color: hsl(0, 0%, 36%);
+    width:100%;
+    font-size:1.2em;
+}
+
+
+#header {
+    margin:auto;
+    font-size: 1em;
+    text-align: center;
+    position: relative;
+}
+#header p {
+    font-weight: 100;
+    letter-spacing:0.5px;
+}
+h1 {
+    font-size: 2.8em;
+    position: relative;
+    top:10px;
+    font-weight: 800;
+}
+
+#img-div {
+    max-width: 99%;
+    background-color:white;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 75%;
+    display: block;
+    height: auto;
+}
+#img-caption {
+    font-size:1em;
+    letter-spacing:0.4px;
+    color: hsl(0, 0%, 36%);
+    text-align: center;
+}
+
+
+
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+}
+
+#tribute-title {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top:2em;
+}
+#tribute-list {
+    margin: 0 auto;
+    width: 70vmin;
+    
+}
+li {
+    margin-bottom: 3vmin;
+    line-height: 150%;
+}
+
+
+
+
+#tribute-frase-div {
+    text-align: center;
+    margin: auto;
+    width: 70vmin;
+}
+
+
+#wikipedia-div {
+    margin: auto;
+    text-align: center;
+}
+#wikipedia-div a {
+    color:#3b8abe;
+}
+
+
+
+@media (max-width: 1400px){
+    img {
+        max-width: 80%;
+    }
+}
+@media (max-width: 1000px){
+	img {
+        max-width: 90%;
+    }
+    #img-div {
+        min-height: 10em;
+    }
+}
+@media (max-width: 600px){
+    #img-div {
+        max-width:90% ;
+        margin:auto;
+        font-size:0.8em;
+    }
+}

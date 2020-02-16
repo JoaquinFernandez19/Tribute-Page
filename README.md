@@ -1,1 +1,2 @@
-# Tribute-Page
+Tribue page for freeCodeCamp
+Responsive web design 
