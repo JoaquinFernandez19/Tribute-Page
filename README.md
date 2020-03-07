@@ -1,4 +1,9 @@
-Tribue page for freeCodeCamp
-Responsive web design 
+# Tribute page project from freeCodeCamp
 
-En este caso tributeando al cantautor Alfredo Zitarrosa
+
+Nothing fancy, just following the projects from freeCodeCamp had to made this
+beatiful page from an artist
+
+### Only used html and css
+
+If you really want to know more about Zitarrosa, i recommend listenin to **'Candome del Olvido'**
